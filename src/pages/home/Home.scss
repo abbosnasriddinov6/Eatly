@@ -4,7 +4,7 @@
 .Home {
     margin-top: 180px;
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     background-color: #F9F9F9;
     // background-color: #18181B;
     // border: $border;
@@ -17,6 +17,32 @@
         // border: $border;
         height: 100%;
 
+        .nlaaa {
+            font-size: 66px;
+            text-align: center;
+            font-family: "Monsterrat", sans-serif;
+
+            @media only screen and (max-width: 1000px) {
+                font-size: 46px;
+            }
+
+            @media only screen and (max-width: 800px) {
+                font-size: 40px;
+            }
+
+            @media only screen and (max-width: 600px) {
+                font-size: 36px;
+            }
+
+            @media only screen and (max-width: 500px) {
+                font-size: 32px;
+            }
+
+            @media only screen and (max-width: 500px) {
+                font-size: 32px;
+            }
+        }
+
         .home {
             display: flex;
             justify-content: space-between;
@@ -24,12 +50,11 @@
             // height: 100%;
             // background-color: #18181B;
 
-            @media only screen and (max-width: 375px) {
-
-
+            @media only screen and (max-width: 550px) {
                 display: flex;
                 flex-direction: column;
-                // background-color: #18181B;
+                // height: 1200px;
+                // margin-bottom: 100px;
             }
 
             .first {
@@ -41,7 +66,7 @@
 
                 // background-color: #18181B;
 
-                @media only screen and (max-width:375px) {
+                @media only screen and (max-width:550px) {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
@@ -199,7 +224,14 @@
 
                 // background-color: #18181B;
 
-                @media only screen and (max-width: 375px) {
+                @media only screen and (max-width: 1000px) {
+                    padding: 0;
+                    width: 50%;
+                    height: 100%;
+                    margin-top: 150px;
+                }
+
+                @media only screen and (max-width: 550px) {
                     width: 100%;
                     height: 50%;
                     margin-top: 40px;
@@ -218,23 +250,25 @@
 
     .klar {
         display: flex;
-        width: 100%;
+        max-width: 100%;
         height: 300px;
         // border: $border;
         background: #5C4EAE;
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 605px) {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            // margin-top: -500px;
+            // margin-top: 500px;
             width: 100%;
             height: 800px;
             margin-top: 0px;
             // margin-bottom: 800px;
 
         }
+
+        @media only screen and (max-width: 550px) {}
 
 
 
@@ -290,7 +324,7 @@
                 // border: $border;
             }
 
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-width: 605px) {
                 // display: flex;
                 gap: 60px;
                 flex-direction: column;
@@ -552,8 +586,9 @@
             height: 99.8%;
 
             // border: $border;
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-width: 775px) {
                 flex-direction: column;
+                // background-color: #18181B;
 
 
             }
@@ -564,12 +599,23 @@
                 height: 100%;
                 // background-color: #18181B;
 
-                // border: $border;
-                @media only screen and (max-width: 800px) {
-                    padding: 170px 20px;
-                    width: 40%;
+                img {
+                    @media only screen and (max-width: 1000px) {
+                        margin-top: 100px;
+                        // width: 100px;
+                        height: 100%;
 
-                    // border: $border;
+                    }
+                }
+
+                // border: $border;
+                @media only screen and (max-width: 1000px) {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0;
+                    width: 100%;
+                    height: 40%;
 
                 }
 
@@ -583,10 +629,7 @@
                     //  height: 100vh;
                     // margin-top: 800px;
                     // background-color: #18181B;
-                    img {
-                        margin-top: 50px;
-                        width: 50%;
-                    }
+
 
 
                 }
@@ -599,9 +642,14 @@
 
 
                 // border: $border;
-                @media only screen and (max-width: 800px) {
-                    padding: 150px 95px;
-                    width: 60%;
+                @media only screen and (max-width: 1000px) {
+                    // padding: 150px 95px;
+                    margin-top: -80px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 100%;
+                    height: 100%;
                     // border: $border;
 
                 }
@@ -800,6 +848,7 @@
     width: 100%;
     height: 800px;
     background: #F9F9F9;
+    // border: $border;
 
     @media only screen and (max-width: 800px) {
         height: 600px;
